@@ -1,6 +1,6 @@
 import streamlit as st 
 
-st.title("Problema Terreno")
+st.title("Problema Retângulo")
 
 # Entrada de dados
 st.write("Digite o comprimento do retângulo")
