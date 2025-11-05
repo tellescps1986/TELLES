@@ -22,6 +22,7 @@ area_do_triangulo = (medida_A * medida_B)/2
 area_do_trapezio = ((medida_A+medida_B)*medida_C)/2
 
 # Saída de Dados
+st.markdown(f"<h2 style='text-align: left;'>Resultados: </h2>", unsafe_allow_html=True)
 st.write(f"A área do quadrado é de: {area_do_quadrado:.2f}.")
 st.write(f"A área do triângulo é de: {area_do_triangulo:.2f}.")
 st.write(f"A área do trapézio é de: {area_do_trapezio:.2f}.")
