@@ -1,5 +1,11 @@
 import streamlit as st
 
+def grafico(dardo1, dardo2, dardo3):
+    #Apresentação de gráfico exibindo lançamento
+    st.area_chart([0, dardo1], use_container_width=True, height=200, color="#eaff00")
+    st.area_chart([0, dardo2], use_container_width=True, height=200, color="#f65200")
+    st.area_chart([0, dardo3], use_container_width=True, height=200, color="#5100ff")
+
 st.title("🎯 Simulação de Lançamento de Dardos 🎯")
 '''
 O objetivo do aplicativo é mostrar o dardo com maior distância.
@@ -37,3 +43,4 @@ if st.button ("Apresentar resultados de lançamento"):
         st.write("Não houve vencedores")
     else:
         st.write(f"O dardo com a maior distância é o {dardo_vencedor}, com distância de {maior_distancia}m.")
+        grafico(dardo1, dardo2, dardo3)
