@@ -31,8 +31,6 @@ elif (dardo3 > dardo1) and (dardo3 > dardo2):
     dardo_vencedor = "Dardo 3"
 elif (dardo1 == dardo2) or (dardo1 == dardo3) or (dardo2 == dardo3):
     dardo_vencedor = "Empate"
-else:
-    dardo_vencedor = "Dardo 3"
 
 if st.button ("Apresentar resultados de lançamento"):
     if dardo_vencedor == "Empate":
