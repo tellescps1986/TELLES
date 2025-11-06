@@ -18,7 +18,7 @@ if st.button('Calcular raízes'):
         c = float(c)
 
         delta = mt.pow(b, 2) - 4 * a * c
-        st.write(f"Δ (delta) = {delta:.4f}")
+        st.write(f"Δ = {delta:.4f}")
 
         if delta < 0:
             st.warning("A equação não possui raízes reais.")
@@ -29,7 +29,7 @@ if st.button('Calcular raízes'):
             raiz1 = (-b + mt.sqrt(delta)) / (2 * a)
             raiz2 = (-b - mt.sqrt(delta)) / (2 * a)
             st.success(f"As raízes da equação são:\n"
-                       f"Raiz 1: {raiz1:.4f}\n"
-                       f"Raiz 2: {raiz2:.4f}")
+                       f"X': {raiz1:.4f}\n"
+                       f"X'': {raiz2:.4f}")
     except:
         st.error("Por favor, insira valores válidos para a, b e c.")
