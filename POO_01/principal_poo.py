@@ -22,7 +22,7 @@ p = ((trianguloX.a + trianguloX.b + trianguloX.c) / 2)
 areax = (p * (p-trianguloX.a) * (p-trianguloX.b) * (p-trianguloX.c)) **0.5
 
 p = ((trianguloY.a + trianguloY.b + trianguloY.c) / 2)
-areax = (p * (p-trianguloY.a) * (p-trianguloY.b) * (p-trianguloY.c)) **0.5
+areay = (p * (p-trianguloY.a) * (p-trianguloY.b) * (p-trianguloY.c)) **0.5
 
 if areax > areay:
     saida = "A área do triângulo X é maior que a área do triângulo Y."
