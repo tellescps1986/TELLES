@@ -44,8 +44,8 @@ def main():
             [sg.Text(f"Digite a idade da {i + 1}ª pessoa:")],
             [sg.Input(key='idade')],
 
-            [sg.Text(f"Digite o peso (kg) da {i + 1}ª pessoa:")],
-            [sg.Input(key='peso')],
+            [sg.Text(f"Digite a altura (m) da {i + 1}ª pessoa:")],
+            [sg.Input(key='altura')],
 
             [sg.Button("OK"), sg.Button("CANCELAR")]
         ]
@@ -62,7 +62,7 @@ def main():
             if evento == "OK":
                 nome = valores['nome'].strip()
                 idade = valores['idade'].strip()
-                peso = valores['peso'].strip()
+                altura = valores['altura'].strip()
 
                 # Validação dos campos
                 if nome == "":
@@ -72,30 +72,30 @@ def main():
                     sg.popup("Por favor, insira uma idade numérica!")
                     continue
                 try:
-                    peso_float = float(peso)
+                    altura_float = float(altura)
                 except ValueError:
-                    sg.popup("Por favor, insira um peso válido (número)!")
+                    sg.popup("Por favor, insira um altura válida (número)!")
                     continue
 
                 # Armazena o cadastro como dicionário
                 cadastro.append({
                     "Nome": nome,
                     "Idade": int(idade),
-                    "Peso (kg)": peso_float
+                    "Altura (m)": altura_float
                 })
                 break
 
         janela.close()
 
     # Calcula média dos pesos
-    pesos = [pessoa["Peso (kg)"] for pessoa in cadastro]
-    media_peso = np.mean(pesos)
+    alturas = [pessoa["Altura (m)"] for pessoa in cadastro]
+    media_altura = np.mean(alturas)
 
     # Monta texto final
     texto_final = "PESSOAS CADASTRADAS:\n\n"
     for i, pessoa in enumerate(cadastro, start=1):
-        texto_final += f"{i}. Nome: {pessoa['Nome']} | Idade: {pessoa['Idade']} | Peso: {pessoa['Peso (kg)']} kg\n"
-    texto_final += f"\nMédia dos pesos: {media_peso:.2f} kg"
+        texto_final += f"{i}. Nome: {pessoa['Nome']} | Idade: {pessoa['Idade']} | Altura: {pessoa['Altura (m)']} m\n"
+    texto_final += f"\nMédia das alturas: {media_altura:.2f} m"
 
     sg.popup("Cadastro concluído!", texto_final)
 
