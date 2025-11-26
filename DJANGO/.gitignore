@@ -1,0 +1,309 @@
+Pular para o conteúdo principal
+Google Sala de Aula
+Sala de Aula
+🐍Programação em Python com framework🐍
+Docente César Brandão
+Início
+Agenda
+Minhas inscrições
+Pendentes
+🐍
+🐍Programação em Python com framework🐍
+Docente César Brandão
+M
+Microsoft SQL Server - I
+I
+Interfaces Web com Bootstrap
+Turmas arquivadas
+Configurações
+Mural
+Atividades
+Pessoas
+Atividade Arquivos para serem ignonarados expandida
+Filtro de tópicosFiltro de tópicosFiltro de tópicos
+Todos os temas
+🌲DJANGO🌲
+🌲DJANGO🌲
+Material
+Arquivos para serem ignonarados
+Item postado: 24 de nov.
+Criar um arquivo git ignore e colocar os comandos no arquivos em anexo
+código git ignore.txt
+Texto
+
+🔧Programaçao orientada a objetos em python🔧
+🔧Programaçao orientada a objetos em python🔧
+Concluída Atividade
+Atividade final de POO
+Sem data de entrega
+Atividade
+Atividade 01 - Introdução a OOP
+Sem data de entrega
+Material
+🧮Material teorico autoral📐
+Item postado: 12 de nov.
+🏃‍♀️Atividades para realizar🏃‍♀️Programação em Python
+🏃‍♀️Atividades para realizar🏃‍♀️Programação em Python
+Concluída Atividade
+Atividade final - Programaçao em python
+Sem data de entrega
+Atividade
+Atividade 02 - Estrutura condicional😁😁
+Sem data de entrega
+Concluída Atividade
+Atividade 01 - Sequencial 😂😂
+Sem data de entrega
+🏃‍♀️Atividades para realizar🏃‍♀️Linguagem Python
+🏃‍♀️Atividades para realizar🏃‍♀️Linguagem Python
+Material
+Atividade 1 - Kahoot sobre a linguagem Python 🖊️
+Última edição: 7 de nov.
+🐍Material para zercícios em python🐍
+🐍Material para zercícios em python🐍
+Material
+Teste de mesa
+Item postado: 16:35
+Material
+Todos os códigos feito em aula
+Item postado: Ontem
+Material
+Muito mais códigos
+Última edição: 6 de nov.
+Material
+Politica de segurança
+Item postado: 5 de nov.
+Material
+HTML
+Item postado: 5 de nov.
+Material
+Artigo sobre códigos de status de respostas HTTP
+Item postado: 5 de nov.
+Material
+Configurações do vscode do docente César
+Última edição: 12 de nov.
+Material
+Construção de fluxograma online
+Item postado: 18 de out.
+Material
+Comunidade brasileira de python
+Item postado: 18 de out.
+🥇🥈🥉Ranking de linguagens🥇🥈🥉
+🥇🥈🥉Ranking de linguagens🥇🥈🥉
+Material
+Um projeto de programação
+Item postado: 18 de out.
+⚙️Git e GitHub⚙️
+⚙️Git e GitHub⚙️
+Material
+🌟Historia das estrelas 🌟
+Item postado: 10 de nov.
+Material
+Criar uma conta no GitHub
+Última edição: 12 de nov.
+👨‍💻Lógica de programação👩‍💻
+👨‍💻Lógica de programação👩‍💻
+Material
+Material para aprender lógica de programação
+Item postado: 18 de out.
+📚Bibliotecas e frameworks📚
+📚Bibliotecas e frameworks📚
+Material
+Streamlit vs Django vs Flask
+Item postado: 5 de nov.
+Material
+Links para documentação de outras bibliotecas
+Última edição: 5 de nov.
+Material
+Pypi
+Última edição: 5 de nov.
+💾Comandos em python colinha💾
+💾Comandos em python colinha💾
+Material
+Alguns comandos de python
+Última edição: 5 de nov.
+📓Senai📓
+📓Senai📓
+Material
+Curso EAD Senai Americana
+Item postado: 18 de out.
+Material
+Curso gratuitos no Senai Americana
+Item postado: 18 de out.
+💼Jobs💼
+💼Jobs💼
+Material
+Mapa de carreiras
+Item postado: 6 de nov.
+Material
+Divulgação - Vagas de Emprego - Senai Americana
+Item postado: 18 de out.
+Material
+Freelancers
+Item postado: 18 de out.
+Material
+Hit Marker
+Item postado: 18 de out.
+Material
+Oportunidades CI&T
+Item postado: 18 de out.
+🖥️Aulas de python online🖥️
+🖥️Aulas de python online🖥️
+Material
+Treinando python em casa
+Item postado: 5 de nov.
+Material
+Cursos do senai play
+Item postado: 5 de nov.
+Material
+Curso gratis de python
+Item postado: 5 de nov.
+Material
+Curso gratuito no Youtube
+Item postado: 18 de out.
+💻Ambientes de desenvolvimento de py💻
+💻Ambientes de desenvolvimento de py💻
+Material
+Softwares
+Item postado: 18 de out.
+📑Plano de ensino📑
+📑Plano de ensino📑
+Material
+Plano de ensino para o curso de Programação em Python com framework
+Última edição: 5 de nov.
+📕Plano de curso📕
+📕Plano de curso📕
+Material
+Plano de curso Programação em Python com framework
+Última edição: 18 de out.
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files #
+*.bak
+
+# If you are using PyCharm #
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+*.iws /out/
+
+# Python #
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule.*
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Sublime Text #
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Package control specific files Package
+Control.last-run
+Control.ca-list
+Control.ca-bundle
+Control.system-ca-bundle
+GitHub.sublime-settings
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Personal additions
+__pycache__/
+*.pyc
+__localcode
+venv
+env
+.DS_Store
+local_settings.py
+_local_settings.py
+gunicorn-error-log
+db.sqlite3
+db copy.sqlite3
+static/
+código git ignore.txt
+Exibindo código git ignore.txt…
