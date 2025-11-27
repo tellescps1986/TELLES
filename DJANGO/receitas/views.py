@@ -6,10 +6,3 @@ def home(request):
     context={
                 'nome':'Receitas Django'
     }) 
-
-
-def sobre(request):
-    return HttpResponse("sobre.html")
-
-def receita(request):
-    return HttpResponse("receita.html")
